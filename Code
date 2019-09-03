@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/Fonts.css">
+	<link rel="stylesheet" type="text/css" href="CSS/Animate.css">
+	<script src="JS/wow.min.js"></script>
+	<script> new WOW().init();</script> 
+	<script type="text/javascript" src="JS/Categories.js"></script>
+	<title>Landing</title>
+</head>
+<body>
+	<div class="Site">
+	<header>
+		<div class="container">
+		<div class="Line clearfix wow fadeInDown">	
+			<nav>
+				<ul class="menu">
+					<li><a href="#top"><img src="img/LOGO_2_0.png"   class="logo" width="79" height="36"><span class="Hardsport"></a>
+					</li>
+					<li><a href="#">News</a>
+					</li>
+					<li><a href="#">Shop</a>
+					</li>
+					<li><a href="#buttonPROGRAMS">Programs</a>
+					</li>
+					<li><a href="#">Help</a>
+					</li>
+					<li><a href="#">Info</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="title wow fadeIn">You want to live better ?</div>
+		<div class="title2"><div class="buttonHelp wow fadeIn"><a href="#"><img src="img/HELP.png"></a><a href="#"><img class="buttonHelpW" src="img/HELPW.png"/></a></div></div>
+	</div>
+	
+
+	</header>
+	<section>
+		<div class="container">
+			<div class="block2 clearfix wow fadeIn">
+				<div class="categoriesBlock">
+					<nav class="categories">
+					<ul>
+						<li><a href="javascript: void(0);" onmouseover="document.getElementById('div_for_insert').innerHTML = about_sport">&nbsp&nbsp&nbsp&nbspsport</a></li>
+						<li><a href="javascript: void(0);" onmouseover="document.getElementById('div_for_insert').innerHTML = about_fitness">&nbsp&nbspFitness</a></li>
+						<li><a href="javascript: void(0);" onmouseover="document.getElementById('div_for_insert').innerHTML = about_yoga">&nbsp&nbsp&nbsp&nbspyoga</a></li>
+						<li><a href="javascript: void(0);" onmouseover="document.getElementById('div_for_insert').innerHTML = about_journey">journey</a></li>
+					</ul>
+					</nav>
+					<div id="div_for_insert">
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="block3 clearfix">
+				<div class="border1 wow fadeInUp" data-wow-offset="150">
+					<h2>How would you like to do ?</h2>
+				</div>
+				<div class="border2 ">
+					<ul class="imgCenter">
+					<li><a href="#"><span class="description"><span class="desc">To escape <br>from all <br><p>Run</p></span></span></span><img src="img/Foto1.png" class="center-img" ></a></li>
+					<li><a href="#"><span class="description"><span class="desc">To become stronger <br><p>Powerlifting</p></span></span><img src="img/Foto2.png" class="center-img" ></a></li>
+					<li><a href="#"><span class="description"><span class="desc">To become better<br><p>Sport</p></span></span><img src="img/Foto3.png" class="center-img" ></a></li>
+					<li><a href="#"><span class="description"><span class="desc">To see more <br><p>Journey</p></span></span><img src="img/Foto4.png" class="center-img" ></a></li>
+					</ul>
+				</div>
+				<div class="border3" >
+					<div class="text2">
+					 <span class="text3 wow bounceInLeft" data-wow-offset="100" data-wow-duration="1.5s"><p>— Why do you do it ?</p></span>
+					<br>
+					 <span class="text4 wow bounceInRight" id="buttonPROGRAMS"data-wow-offset="100" data-wow-duration="1.5s"><p>I'll never be able to explain why I do it. — <br> I just don't want to be like everyone else,<br>don't want to live like everyone else...</p></span> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="bg2">
+		<div class="container w">	
+			<div class="block4 clearfix">
+			<div class="title wow fadeIn" data-wow-offset="100" data-wow-duration="2s">We will help you</div>
+			<div class="buttonPROGRAMS wow fadeIn" data-wow-offset="100" data-wow-duration="1.5s" data-wow-offset="100" data-wow-duration="2s"> <a href="#"><img src="img/PROGRAMS.png" ></a></div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="block5 clearfix">
+				<div class="Quote wow fadeIn" data-wow-duration="2s" data-wow-offset="100">
+					<div class="QuoteB "><p>I still look at myself and feel that I have<br>
+						 to develop. I've done a lot of things<br>
+						 I've played for real, but I still<br>
+						 in my career - I've been<br>
+						 captain of England, I've played for man United,<br>
+						 I've played for real, but I still <br>
+						 can't say - "I did it." I've played a lot of games,<br>
+						 but I haven't done it yet.</p>
+					</div>
+				</div>
+				<div class="graph wow fadeInLeft" data-wow-duration="1.5s" data-wow-offset="100"><img src="img/graph.png">
+					<div class="Motivation">
+						<div class="text5">Motivation is what makes you start.<br>
+					The habit is what causes you to continue.</div>
+						<div class="Vote"><p>Vote</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container wow fadeIn" data-wow-duration="2s" data-wow-offset="100">
+			<div class="footer clearfix">
+				<div class="column  ">
+					<div class="ac">
+					<p>address</p>
+					<h2>xxxxxxxxxxxxxx<br>xxxxxxxxxxxx</h2>
+					</div>
+					<div class="ac">
+					<p>contacts</p>
+					<h2>+x-xxx-xxx-xx-xx<br>+x-xxx-xxx-xx-xx</h2>
+					</div>
+				</div>
+				<div class="column3">
+				<div class="ac">
+					<p>created by</p>
+					<a href="https://vk.com/zikty" target="_blank"><h2>Pantyukov Vadim</h2></a>
+					</div>
+					<div class="ac">
+					<p>design by</p>
+					<a href="https://vk.com/thefakesky" target="_blank"><h2>Gremitskih Ivan</h2></a>
+					</div>
+			</div>
+			
+			<div class="column2"><p>supported by</p>
+				<div class="img-footer">
+					<a href="http://government.ru/" target="_blank"><img src="img/gerb.png" class="iconimg"></a>
+					<a href="https://www.twitch.tv/" target="_blank"><img src="img/twitch.png" class="iconimg"></a>
+					<a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" class="iconimg"></a>
+					<a href="https://www.ukr.net/" target="_blank"><img src="img/korona.png" class="iconimg"></a>
+				</div>
+					<div class="created"><p>Created to entertain users ,<br>and does not promote discrimination against anyone <br>or the promotion of anything.</p>
+					</div>
+			</div>
+			</div>
+		</div>
+	</footer>
+		</div>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
